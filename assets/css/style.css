@@ -1,0 +1,938 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #ecf0f1;
+}
+/* FORM LOGIN */
+img{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 40%;
+    height: 350px;
+    border-radius: 8px;
+    margin-left: 380px;
+    margin-top: 20px;
+    background-color: white;
+}
+.text-login{
+    width: 100%;
+    height: 70px;
+    background-color: #f1c40f;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+h4{
+    display: inline;
+    position: absolute;
+    margin-top: 30px;
+    color:#f1c40f;
+}
+h5{
+    display: inline;
+    position: absolute;
+    margin-top: 55px;
+    color:#f1c40f;
+}
+.login{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+input{
+    display: block;
+}
+.username{
+    width: 60%;
+    height: 25px;
+    border: 1.5px solid #f1c40f;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.password{
+        width: 60%;
+        height: 25px;
+        border: 1.5px solid #f1c40f;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.btn_login{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #006A66;
+    font-size: 15px;
+    color: white;
+}
+.footer{
+text-align: center;
+font-weight: bold;
+margin-top: 40px;
+}
+/* TUTUP FORM LOGIN */
+
+/* FORM HOME */
+
+aside{
+    background-color: #f1c40f;
+    width: 250px;
+    height: 545px;
+    display: block;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 11px;
+}
+ul{
+    margin-left:15px;
+}
+ul li{
+    display: block;
+    list-style-type: none;
+    padding: 20px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: bold;
+}
+aside ul>.li:hover{
+    background-color: #006A66;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    color:white;
+}
+a:hover{
+    color:white;
+}
+.logout{
+    background-color: red;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    margin-top: 20px;
+}
+.logo-home{
+    width: 100%;
+    height: 100px;
+    background-color: #006A66;
+    margin-bottom: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: -35px;
+}
+.img-home{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 10px;
+}
+.h5-home{
+color:white;
+margin-left: 80px;
+margin-top: 20px;
+}
+.h6-home{
+    color:white;
+    margin-left: 80px;
+    padding-top: 55px;
+    }
+.footer-home{
+    margin-top: -40px;
+    font-weight: bold;
+    margin-left: 550px;
+}
+/* TUTUP FORM HOME */
+
+/* FORM MAIN */
+.judul-home{
+    width: 36.5%;
+    height: 50px;
+    background-color: #f1c40f;
+    color: #006A66;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    float: left;
+    margin-top: -515px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-home{
+    width: 73%;
+    height: 45px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 20px;
+    float: left;
+    margin-top: -430px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+/* TUTUP FORM MAIN */
+
+/* FORM GURU TAMPIL */
+.judul-guru-tampil{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.btn-tambah-guru{
+    margin-left: 300px;
+    margin-top: -420px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+.table-guru{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: -350px;
+}
+table{
+    border: 2px solid #006A66;
+    border-collapse: collapse;
+    margin-right:50px;
+}
+table tr th{
+    border: 2px solid #f1c40f;
+    text-align: center;
+    background-color: #006A66;
+    color: #f1c40f;
+    height: 50px;
+}
+table tr td{
+    border: 2px solid #006A66;
+    text-align: center;
+}
+.btn-edit-guru{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-edit-guru:hover{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+.btn-hapus-guru{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-hapus-guru:hover{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+/* TUTUP FORM GURU TAMPIL */
+
+/* FORM GURU INPUT */
+.judul-guru-input{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.input-data-guru{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+
+}
+.nip-input-guru{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-input-guru{
+        width: 40%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.jk-input-guru{
+    width: 15%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.tamatan-input-guru{
+    width: 25%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-simpan-guru{
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+/* TUTUP FORM GURU INPUT */
+
+/* FORM EDIT GURU */
+.judul-guru-edit{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.edit-data-guru{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+}
+.nip-edit-guru{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-edit-guru{
+        width: 40%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.jk-edit-guru{
+    width: 15%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.tamatan-edit-guru{
+    width: 25%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-update-guru{
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #f1c40f;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:black;
+}
+/* TUTUP FORM GURU EDIT */
+
+/* FORM TAMPIL MAPEL */
+
+.judul-mapel-tampil{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.btn-tambah-mapel{
+    margin-left: 300px;
+    margin-top: -420px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+.table-mapel{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: -350px;
+}
+table{
+    border: 2px solid #006A66;
+    border-collapse: collapse;
+    margin-right:50px;
+}
+table th{
+    border: 2px solid #f1c40f;
+    text-align: center;
+    background-color: #006A66;
+    color: #f1c40f;
+    height: 50px;
+}
+table tr td{
+    border: 2px solid #006A66;
+    text-align: center;
+}
+.btn-edit-mapel{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-edit-mapel:hover{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+.btn-hapus-mapel{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-hapus-mapel:hover{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+/* TUTUP FORM TAMPIL MAPEL */
+
+/* FORM INPUT MAPEL */
+
+.judul-mapel-input{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.input-data-mapel{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+}
+.kode-input-mapel{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-input-mapel{
+        width: 30%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.nama-guru-input-mapel{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-simpan-mapel{
+    margin-left: 5px;
+    margin-top: 80px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+/* TUTUP FORM INPUT MAPEL */
+
+/* FORM EDIT MAPEL */
+
+.judul-mapel-edit{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.edit-data-mapel{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+}
+.kode-edit-mapel{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-edit-mapel{
+        width: 30%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.nama-guru-edit-mapel{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-update-mapel{
+    margin-left: 5px;
+    margin-top: 80px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #f1c40f;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:black;
+}
+/* TUTUP FORM EDIT MAPEL */
+
+/* FORM TAMPIL KELAS */
+
+.judul-kelas-tampil{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.btn-tambah-kelas{
+    margin-left: 300px;
+    margin-top: -420px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+.table-kelas{
+    margin-left: 300px;
+    position: absolute;
+    margin-top: -350px;
+}
+table{
+    border: 2px solid #006A66;
+    border-collapse: collapse;
+    margin-right:50px;
+}
+table th{
+    border: 2px solid #f1c40f;
+    text-align: center;
+    background-color: #006A66;
+    color: #f1c40f;
+    height: 50px;
+}
+table tr td{
+    border: 2px solid #006A66;
+    text-align: center;
+}
+.btn-edit-kelas{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-edit-kelas:hover{
+    display: block;
+    float: left;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+.btn-hapus-kelas{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 5px;
+}
+.btn-hapus-kelas:hover{
+    display: block;
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/* TUTUP FORM TAMPIL KELAS */
+
+/* FORM INPUT KELAS */
+
+.judul-kelas-input{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.input-data-kelas{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+}
+.nama-input-kelas{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.jumlah-input-kelas{
+        width: 5%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.nama-mapel-input-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-mapel-input-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-guru-input-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-simpan-kelas{
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #3742fa;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+
+/* TUTUP FORM INPUT KELAS */
+
+/* FORM INPUT KELAS */
+
+.judul-kelas-edit{
+    width: 15%;
+    height: 40px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -540px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.edit-data-kelas{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 100%;
+}
+.nama-edit-kelas{
+    width: 20%;
+    height: 25px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.jumlah-edit-kelas{
+        width: 5%;
+        height: 25px;
+        border: 1.5px solid #006A66;
+        border-radius: 8px;
+        font-size: 15px;
+}
+.nama-mapel-edit-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-mapel-edit-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.nama-guru-edit-kelas{
+    width: 25%;
+    height: 30px;
+    border: 1.5px solid #006A66;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn-update-kelas{
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #f1c40f;
+    border: 0px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color:black;
+}
+
+/* TUTUP FORM EDIT KELAS */
+
+/* FORM ABOUT */
+.about{
+    width: 73%;
+    height: 50px;
+    background-color: #006A66;
+    color: #f1c40f;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    float: left;
+    margin-top: -540px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.content{
+    margin-left: 300px;
+    margin-top: -460px;
+    position: fixed;
+    width: 69%;
+    background-color: #f1c40f;
+    color: #006A66;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    padding: 20px 20px;
+    text-align: justify;
+}
+.titik-dua-satu{
+    display: inline;
+    margin-left: 50px;
+}
+.titik-dua-dua{
+    display: inline;
+    margin-left: 62px;
+}
+.titik-dua-tiga{
+    display: inline;
+    margin-left: 54px;
+}
+.titik-dua-empat{
+    display: inline;
+    margin-left: 9px;
+}
+.titik-dua-lima{
+    display: inline;
+    margin-left: 48px;
+}
+/* TUTUP FORM ABOUT */

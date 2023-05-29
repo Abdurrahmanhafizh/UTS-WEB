@@ -1,0 +1,16 @@
+{
+    "name": "hafizh-uts/uts_web_lanjutan",
+    "description": "UTS WEB LANJUTAN",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Abdurrahman Hafizh"
+        }
+    ],
+    "require": {}
+}
